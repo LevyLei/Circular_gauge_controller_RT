@@ -1,43 +1,7 @@
 Name: Controller Tags
 Type: FolderType
 Children:
-- Name: Value_STRING
-  Type: RAEtherNetIPTag
-  DataType: String
-  Value: ""
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Value_STRING"
-- Name: Value_FLOAT_Single
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Value_FLOAT_Single"
-- Name: Tooltip_True_STRING
-  Type: RAEtherNetIPTag
-  DataType: String
-  Value: ""
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Tooltip_True_STRING"
-- Name: Tooltip_True_FLOAT
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Tooltip_True_FLOAT"
-- Name: Tooltip_True_BOOL
+- Name: Editable_False_BOOL
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -45,43 +9,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Tooltip_True_BOOL"
-- Name: Minimum_value_DINT
-  Type: RAEtherNetIPTag
-  DataType: Int32
-  Value: 0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Minimum_value_DINT"
-- Name: Minimum_value_BOOL
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Minimum_value_BOOL"
-- Name: Maximum_value_DINT
-  Type: RAEtherNetIPTag
-  DataType: Int32
-  Value: 0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Maximum_value_DINT"
-- Name: Maximum_value_FLOAT_Double
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Maximum_value_FLOAT_Double"
+    Value: "Editable_False_BOOL"
 - Name: Editable_False_DINT
   Type: RAEtherNetIPTag
   DataType: Int32
@@ -100,25 +28,16 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Editable_False_STRING"
-- Name: Editable_False_BOOL
+- Name: Maximum_value_DINT
   Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Editable_False_BOOL"
-- Name: Value_FLOAT_Single_0
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Value_FLOAT_Single_0"
-- Name: Minimum_value_FLOAT_Single_0
+    Value: "Maximum_value_DINT"
+- Name: Maximum_value_FLOAT_Double
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -126,7 +45,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Minimum_value_FLOAT_Single_0"
+    Value: "Maximum_value_FLOAT_Double"
 - Name: Maximum_value_FLOAT_Single_0
   Type: RAEtherNetIPTag
   DataType: Float
@@ -136,3 +55,84 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Maximum_value_FLOAT_Single_0"
+- Name: Minimum_value_BOOL
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Minimum_value_BOOL"
+- Name: Minimum_value_DINT
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Minimum_value_DINT"
+- Name: Minimum_value_FLOAT_Single_0
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Minimum_value_FLOAT_Single_0"
+- Name: Tooltip_True_BOOL
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tooltip_True_BOOL"
+- Name: Tooltip_True_FLOAT
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tooltip_True_FLOAT"
+- Name: Tooltip_True_STRING
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tooltip_True_STRING"
+- Name: Value_FLOAT_Single
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Value_FLOAT_Single"
+- Name: Value_FLOAT_Single_0
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Value_FLOAT_Single_0"
+- Name: Value_STRING
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Value_STRING"

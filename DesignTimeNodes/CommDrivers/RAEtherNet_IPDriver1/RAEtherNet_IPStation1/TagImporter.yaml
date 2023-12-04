@@ -16,4 +16,8 @@ Children:
 - Name: Mode
   Type: BaseDataVariableType
   DataType: FetchModes
-  Value: 1
+  Value: 0
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/N0570008/Downloads/gauge_and_controller_different_type.ACD"
